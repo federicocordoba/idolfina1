@@ -1,0 +1,740 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+html body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*-------------------------------HEADER-----------------------------*/
+header{
+	background-color: #201F23;
+	height: 70px;
+	position: fixed;
+	z-index: 20;
+}
+
+/*-----------------------------LOGO-----------------------------------*/
+header .logo{
+	display: inline-block;
+	float: left;
+	height: 70px;
+	padding-left: 2%;
+}
+
+header .logo img{
+	display: inline-block;
+	width: 65px;
+	height: 55px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 7.5px;
+	float: left;	
+}
+
+/*header h1{
+	display: inline-block;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
+	color: white;
+	/*color: #ECCD85;*/
+	/*font-size: 60px;
+	font-weight: 700;
+	margin-left: 4%;
+	margin-top: 2px;
+	margin-bottom: 2px;*/
+	/*background-color: aquamarine;*/
+	/*float: left;*/
+/*}*/
+
+header h1{
+	display: inline-block;
+	float: left;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
+	font-size: 60px;
+	font-weight: 700;
+	margin-left: 2%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background: linear-gradient(to top right, #ECCD85, #b5c7f3);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+
+
+/*------------------------------------MENU-----------------------------------*/
+header .menu{
+	/*width: 60%;*/
+	height: 70px;
+	float: left;
+	/*paddin-left: 8%;*/
+}
+
+header .menu ul{
+	height: 70px;
+	margin: 0px;
+	padding-right: 3%;
+	display: flex;
+	justify-content:flex-end;
+	/*align-items: flex-end;*/
+}
+
+header .menu li{
+	float: left;
+	/*text-align: right;*/
+	list-style: none;
+	margin-top: 25px;
+	margin-right: 1.5%;
+}
+
+header .menu li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+
+/*----------------------HOVER MENU--------------------------*/
+header .menu li a:hover{
+	color: #bcbbbd;
+	border-bottom: 1px solid #bcbbbd;
+}
+
+/*--------------------------IMG PPAL---------------------------*/
+div.imgppal{
+	position: relative;
+}
+
+.imgppal img{
+	width: 100%;
+	height: 800px;
+	border-bottom: 70px solid #201F23;
+}
+
+.imgppal .redes-sociales{
+	/*display: block;*/
+	/*font-size: 20px;*/
+	position: absolute;
+	top: 685px;
+	right: 0px;
+	float: right;
+	/*background-color: red;*/
+}
+
+.imgppal .redes-sociales a{
+	font-size: 30px;
+	/*color: white;*/
+	margin-right: 10px;
+}
+
+.redes-sociales .fa-facebook-square {
+	color: #4e69a2;
+}
+
+.redes-sociales .fa-instagram {
+	background: linear-gradient(to bottom left, #002aff 0%, #ee2a7b 50%, #f9ed32 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube {
+	color: #c4302b;
+}
+
+/*-------------------HOVER REDES SOCIALES IMG PPAL--------------*/
+.redes-sociales .fa-facebook-square:hover {
+	color: #2f4779;
+}
+
+.redes-sociales .fa-instagram:hover {
+	background: linear-gradient(to bottom left, #0021cc 0%, #001db7 40%, #c7bd28 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube:hover {
+	color: #9c2622;
+}
+
+/* ------------------------IMG PROMOS------------------------*/
+/*.promos{
+	width: 350px;
+	height: 250px;
+	position: relative;
+}*/
+
+.imgppal .imgpromos{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	top: 100px;
+	left: 5.2%;
+	/*border-top: 1px solid white;
+	border-bottom: 1px solid white;*/
+}
+
+.imgppal .imgpromos .item h1{
+	color: #d9ffd3;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-shadow: 4px 4px 2px black;
+}
+
+.imgppal .imgpromos .item p{
+	color: 	#ffe9ec;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 4px 4px 2px black;
+	
+}
+
+.imgppal .imgpromos #myCarousel ol li{
+	list-style: none;
+}
+
+/*.imgppal .imgpromos .item img{
+	width: 350px;
+	height: 250px;
+	/*opacity: 0.7;*/
+	/*border: 0px;
+	/*border-radius: 30%;*/
+/*}*/
+
+/* -----------------------------ARTICLE-------------------------*/
+article{
+	margin-top: 0px;
+}
+
+article section{
+	width: 100%;
+	/*height: 480px;*/
+	height: 560px;
+	margin: 20px 0px;
+	position: relative;
+}
+
+/*article .relativo{
+	position: relative;
+}
+
+article div .div-oculto{
+	width: 100%;
+	height: 140px;
+	background-color: red;
+	position: absolute;
+	top: -180px;
+	visibility: hidden;
+}*/
+
+article section  h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+	display: inline-block;
+	border-top: 1px solid #201F23;
+	border-bottom: 1px solid #201F23;
+	/*color: white*/
+}
+
+article section  p{
+	font-size: 22px;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: #79787b;
+	/*color: white;*/
+}
+
+
+/*----------------------------ALISADO-----------------------------*/
+article section .textalisado{
+	width: 60%;
+	/*height: 480px;*/
+	height: 560px;
+	/*background-color: beige;*/
+	float: left;
+	
+}
+
+article section .imgalisado{
+	width: calc(40% - 16px);
+	/*height: 480px;*/
+	height: 560px;
+	padding: 0px;
+	/*background-color: blue;*/
+	float: right;
+	box-shadow: 7px 10px 18px black;
+	margin-right: 16px;
+}
+
+article section .imgalisado .item img{
+	width: 100%;
+	/*height: 480px;*/
+	height: 560px;
+	/*border-radius: 50%;*/
+	/*border: 22px solid red;*/
+}
+
+
+/* -------------------------COLOR--------------------------- */
+article section .textcolor{
+	width: 60%;
+	/*height: 480px;*/
+	height: 560px;
+	/*background-color: beige;*/
+	float: right;
+}
+
+article section .imgcolor{
+	width: calc(40% - 16px);
+	/*height: 480px;*/
+	height: 560px;
+	padding: 0px;
+	/*background-color: blue;*/
+	float: left;
+	box-shadow: 7px 10px 18px black;
+	margin-left: 16px;
+}
+
+article section .imgcolor .item img{
+	width: 100%;
+	/*height: 480px;*/
+	height: 560px;
+}
+
+/* -------------------------CORTE/PEINADOS--------------------- */
+article section .textcorte{
+	width: 60%;
+	/*height: 480px;*/
+	height: 560px;
+	/*background-color: beige;*/
+	float: left;
+}
+
+article section .imgcorte{
+	width: calc(40% - 16px);
+	/*height: 480px;*/
+	height: 560px;
+	padding: 0px;
+	/*background-color: blue;*/
+	float: right;
+	box-shadow: 7px 10px 18px black;
+	margin-right: 16px;
+}
+
+article section .imgcorte .item img{
+	width: 100%;
+	/*height: 480px;*/
+	height: 560px;
+}
+
+/* -------------------------REFLEJOS--------------------------- */
+article section .textreflejos{
+	width: 60%;
+	/*height: 480px;*/
+	height: 560px;
+	/*background-color: beige;*/
+	float: right;
+}
+
+article section .imgreflejos{
+	width: calc(40% - 16px);
+	/*height: 480px;*/
+	height: 560px;
+	padding: 0px;
+	/*background-color: blue;*/
+	float: left;
+	box-shadow: 7px 10px 18px black;
+	margin-left: 16px;
+}
+
+article section .imgreflejos .item img{
+	width: 100%;
+	/*height: 480px;*/
+	height: 560px;
+}
+
+/* ---------------------MAPA UBICACION------------------------*/
+aside .mapa iframe{
+	width: 100%;
+	height: 400px;
+	/*margin-top: 8px;*/
+	/*padding-top: 16px*/
+}
+
+/* -----------------------ASIDE - VIDEOS---------------------*/
+aside{
+	width: 100%;
+	/*height: 250px;*/
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;*/
+	margin-bottom: 16px;
+}
+
+aside div{
+	display: inline-block;
+	height: 250px;
+	width: calc(25% - 3px);
+}
+
+aside div .video{
+	border: 5px outset #79787b;
+	padding: 5px;
+}
+
+
+
+/* ------------------------PIE DE PAGINA---------------------*/
+/* -------------------------FOOTER---------------------------*/
+footer{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+}
+
+/*-----------------------------rows---------------------------*/
+footer .rows{
+	width: 100%;
+	height: 400px;
+	/*background-color: blue;*/
+	
+}
+
+/*--------------------------info---------------------------*/
+footer .rows .info{
+	width: 30%;
+	height: 400px;
+	/*background-color: olive;*/
+	float: left;
+	background-image: url(../img/Peluqueria/peluqueria8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*position: relative;*/
+}
+
+/*-------------------------h1,h3,h4----------------------*/
+footer .rows .info .margen{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+footer .rows .info h1 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	margin-top: 80px;
+	/*margin-top: 110px;*/
+	margin-bottom: 0px;
+
+}
+
+footer .rows .info h3{
+	font-size: 18px;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+footer .rows .info h4{
+	margin-bottom: 0px;
+	font-size: 16px
+}
+
+/* ------------------------REDES SOCIALES----------------------*/
+footer .rows .info .redes-sociales{
+	/*background-color: red;*/
+	text-align: center;
+	margin: 20px;
+}
+
+footer .rows .info h4 a{
+	/*display: inline-block;*/
+	/*color: white;*/
+	/*text-decoration: none;*/
+	font-size: 20px;
+	margin-left: 10px;	
+}
+
+
+
+/* -------------------REDES SOCIALES HOVER-----------------*/
+/* h4 a .fa-facebook-square:hover{
+	color: #3b5998;
+}
+
+ h4 a .fa-instagram:hover{
+	color: #3f729b;
+}
+
+ h4 a .fa-youtube:hover{
+	color: red;
+}*/
+
+/*-------------------------IMG LOVE----------------------------*/
+footer .rows .love{
+	width: 45%;
+	height: 400px;
+	/*background-image: url(../img/peluqueria/Love.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	float: left;
+	position: relative;
+	/*---------------Para el Copyright----------------*/
+	/*color: #79787b;*/
+	/*color: white;*/
+	/*display: flex;
+	justify-content: center;
+	align-items: flex-end;*/
+}
+footer .rows .love img{
+	width: 100%;
+	height: 380px;
+}
+
+/* -----------------------COPYRIGHT----------------------*/
+footer .rows .copyright{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: #79787b;
+	background-color: #100f11;
+}
+
+/*-------------------------GOOGLE MAP----------------------------*/
+footer .rows .google-map{
+	width: 25%;
+	height: 400px;
+	/*background-color: red;*/
+	float: left;
+	border: 2px solid #201F23;
+}
+
+footer .rows .google-map iframe{
+	width: 100%;
+	height: 400px;
+}
+
+/* --------------------------RESPONSIVE------------------------- */
+/* -------------Medias de referencia de Bootstrap.--------------- */
+
+@media (max-width: 767px) {
+  /* Celular */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet */
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Notebook / monitor pequeño */
+	header .logo{
+		padding-left: 0%;
+	}
+	
+	header .logo{
+		
+	}
+	
+	header h1{
+		font-size: 55px;
+		font-weight: 700;
+		margin-left: 0%;
+		margin-top: 7px;
+	}
+}
+@media (min-width: 1200px) {
+  /* Pc escritorio / monitor grande */
+}
+
+/*-----------------------------------copyright------------------*/
+/*footer .copyright{
+	width: 100%;
+	height: 25px;
+	color: #79787b;
+    padding-top: 3px;
+	/*padding-bottom: 0px; */
+	/*margin-bottom: 7px;*/
+	/*text-align: center;
+	/*background-color: #201F23;*/
+	/*align-content: flex-end;
+}
+
+footer .copyright span{
+	align-content: flex-end;
+}*/
+
+/*---------------------------------------------------------------*/
+/* --------------------------GRILLA------------------------------ */
+.columna-12{
+	width: 100%;
+	/*background-color: darkseagreen;
+	margin-bottom: 5px;
+	text-align: center;*/
+}
+
+.columna-11{
+	width: 91.666666666667%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-10{
+	width: 83.333333333333%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-9{
+	width: 75%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-8{
+	width: 66.666666666667%;
+	/*background-color: darkseagreen;
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;*/
+}
+
+.columna-7{
+	width: 58.333333333333%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-6{
+	width: 50%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-5{
+	width: 41.666666666667%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-4{
+	width: 33.333333333333%;
+	/*background-color: green;*/
+	/*margin-bottom: 5px;
+	text-align: center;
+	float: left;*/
+}
+
+.columna-3{
+	width: 25%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-2{
+	width: 16.666666666667%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-1{
+	width: 8.333333333333%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+
+/* -------------------------------BOTONES----------------------------- */
+.btn{
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/*TAMAÑO*/
+.btn-pequenio{
+	padding: 2.5px 5px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.btn-pequenio i{
+	font-size: 10px;
+}
+
+.btn-grande{
+	padding: 6px 12px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+
+.btn-grande i{
+	font-size: 17px;
+}
+
+/*TIPOS*/
+.btn-pildoras{
+	border-radius: 30px;
+}
+
+/*COLORES*/
+.btn-primario{
+	background-color: #201F23;
+	color: #e8e8e9;
+}
+
+.btn-primario:hover{
+	background-color: #e8e8e9;
+	color: #201F23;
+}
+
+.btn-positivo{
+	background-color: #f5e6c2;
+	color: #5e5235;
+}
+
+.btn-positivo:hover{
+	background-color: #201F23;
+	color: #f5e6c2;
+}
+
+.btn-negativo{
+	background-color: red;
+	color: white;
+}
+
+.btn-negativo:hover{
+	background-color: black;
+	color: white;
+}
